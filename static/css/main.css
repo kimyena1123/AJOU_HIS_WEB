@@ -2,11 +2,15 @@
     --main-bg-color: rgba(0, 71, 171);
     --sub-cp-color: #1E96FF;
     --sub-bg-color: rgba(245,245,245);
+    --font-color: rgb(255, 196, 54);
   }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+a{
+    text-decoration: none;
 }
 .html{
     width: 100vw;
@@ -17,9 +21,15 @@
 header{
     width: 100%;
     height: 110px;
-    display: flex;
     position: sticky;
     top: 0;
+    /* border: 5px solid green; */
+}
+.headerlayer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* border: 2px solid red; */
 }
 /* left-header */
 header .left-header{
@@ -27,6 +37,7 @@ header .left-header{
     height: 100%;
     background-color: var(--main-bg-color);
     display: flex;
+    /* border: 2px solid red; */
 
 }
 .left-header .ajou-logo{
@@ -45,26 +56,31 @@ header .left-header{
 .ajouuniv > p{
     color: white;
 }
-.left-header ul{
+.left-header .navUl{
     width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    /* border: 5px solid orange; */
 }
-.left-header ul li{
+
+.left-header > ul li{
     list-style: none;
     font-size: 20px;
     font-weight: 400;
+    /* border: 2px solid pink; */
 }
 .left-header a{
     text-decoration-line: none;
     color: rgba(255,255,255);
+    /* background-color: pink; */
 }
 /* right-header */
 header .right-header{
     width: 30%;
     height: 100%;
     background-color: rgba(255,255,255);
+    /* border: 2px solid red; */
 }
 .right-header ul{
     width: 100%;
@@ -73,7 +89,7 @@ header .right-header{
     justify-content: space-around;
     align-items: center;
 }
-.right-header ul li{
+.right-header > ul li{
     list-style: none;
     font-size: 20px;
     font-weight: 400;
@@ -83,41 +99,166 @@ header .right-header{
     color: var(--main-bg-color);
 }
 
+.hoverNav{
+    width: 70%;
+    height: 250px;
+    background-color: var(--main-bg-color);
+    opacity: 0.8;
+    /* display: flex; */
+    display: none;
+    /* border: 5px solid yellow; */
+}
+.hoverNav .hoverNavFlex{
+    /* width: 70%; */
+    height: 100%;
+    /* border: 4px solid red; */
+    display: flex;
+}
+.hoverNav .blankDiv{
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid white; */
+}
+.hoverNav .hoverList{
+    width: 70%;
+    height: 100%;
+    /* padding: 0 55px; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* border: 2px solid white; */
+}
+.hoverList .hideUl{
+    width: 96%;
+    height: 70%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    /* border: 5px solid pink; */
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.hoverList .hideUl .hideList{
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+    /* border: 2px solid orange; */
+    width: 15%;
+}
 
+.miniHideList{
+    list-style: none;
+    padding-left: 10px;
+    /* border: 1px solid red; */
+}
+.hideList5, .hideList6{
+    margin-left: 10px;
+    /* background-color: pink; */
+    padding-left: 20px;
+}
+.hideList3{
+    margin-right: 10px;
+}
+
+.hideList ul{
+    /* border: 2px solid pink; */
+    line-height: 40px;
+}
+.hideList ul .miniHideList{
+    /* border: 4px solid red; */
+}
+.hideList ul .miniHideList a{
+    color: white;
+}
+.hideList ul .miniHideList a:hover{
+    font-weight: 700;
+    color: var(--font-color);
+}
 /* content */
 .content{
     width: 100%;
     height: 2700px;
 }
-/* componenet01 */
+/* ############################################################ */
+/* content component01 */
 .component01{
     width: 100%;
     height: 25%;
     display: flex;
 }
 .component01 .blueBox{
-    width: 29%;
+    width: 33%;
     height: 100%;
     /* background-color: rgba(0, 91, 170); */
     background-color: var(--main-bg-color); 
     /* border: 4px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: end; */
 }
+.blueBox .univ{
+    width: 80%;
+    height: 40%;;
+    /* border: 1px solid white; */
+    margin-top: 30px;
+}
+.univ p{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--font-color);
+}
+.blueBox .titleBox{
+    width: 70%;
+    height: 10%;
+    border: 1px solid var(--font-color);
+    margin-bottom: 60px;
+;}
+.blueBox .subBox{
+    width: 70%;
+    height: 50%;
+    /* border: 1px solid var(--sub-bg-color); */
+    margin-bottom: 70px;
+}
+.blueBox .subBox .site{
+    width: 100%;
+    height: 33%;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    /* background-color: rgb(255, 240, 206); */
+    /* background-color: var(--font-color); */
+    display: flex;
+    justify-content: space-between;
+}
+.subBox .site .block{
+    width: 33%;
+    height: 100%;
+    /* border: 1px solid white; */
+}
+.whiteBar{
+    border-bottom: 1px solid white;
+}
+.whiteBar2{
+    border-right: 1px solid white;
+}
+
+
+
+
+
 .component01 .ajou-img{
-    width: 66%;
+    width: 67%;
     height: 100%;
 }
 .ajou-img img{
     width: 100%;
     height: 100%;
 }
-.component01 .whiteBox{
-    width: 5%;
-}
 
+/* ############################################################ */
+/* content component02 */
 .component02{
     width: 100%;
     height: 21%;
-    margin: 0 auto;
 }
 .component02 .SecondDiv{
     width: 72%;
@@ -127,17 +268,18 @@ header .right-header{
 }
 .component02 .noticeDiv{
     width: 100%;
-    height: 30%;
+    height: 28%;
     display: flex;
     flex-direction: column;
 }
 .noticeDiv .blank{
     width: 100%;
-    height: 40%;
+    height: 35%;
 }
 .noticeDiv .showContent{
+    /* border: 1px solid red; */
     width: 100%;
-    height: 60%;
+    height: 50%;
     display: flex;
 }
 .showContent .whiteSpace{
@@ -161,7 +303,7 @@ header .right-header{
     justify-content: end;
     align-items: center;
 }
-.plus .bi-plus-square-fill{
+.bi-plus-square-fill{
     font-size: 35px;
     color: var(--main-bg-color);
 }
@@ -169,7 +311,7 @@ header .right-header{
 .component02 .subDiv{
     /* border: 2px solid pink; */
     width: 100%;
-    height: 70%;
+    height: 68%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -219,16 +361,182 @@ header .right-header{
     color: var(--main-bg-color);
 }
 
+/* ############################################################ */
+/* content component03 */
 .component03{
     width: 100%;
     height: 19%;
     background-color: var(--sub-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.component03 .baseDiv{
+    width: 78%;
+    height: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.baseDiv .imgBox{
+    margin-top: 20px;
+    width: 55%;
+    height: 87%;
+    /* border: 1px solid red; */
+}
+.baseDiv .imgBox > img{
+    width: 100%;
+    height: 100%;
+}
+.baseDiv .desc{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid blue; */
+}
+.desc .title{
+    width: 100%;
+    height: 24%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: end;
+    padding-bottom: 10px;
+}
+.desc .title p{
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--font-color);
+    text-shadow: -1px 0px var(--main-bg-color), 0px 1px var(--main-bg-color), 1px 0px
+}
+.desc .info{
+    padding-left: 5px;
+    padding-bottom: 20px;
+    /* border: 1px solid blue; */
+    width: 80%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+}
+.desc .info p{
+    font-size: 18px;
+    color: #555;
+    line-height: 34px;
+}
+.desc .linkBtn{
+    width: 100%;
+    height: 21%;
+    /* border: 1px solid brown; */
+}
+.desc .main-btn{
+    width: 40%;
+    height: 60%;
+    border: 4px solid white;
+    background-color: var(--font-color);
+    color: white;
+    /* border: 1px solid red; */
+}
+.desc .main-btn p{
+    font-size: 20px;
+}
+
+/* ############################################################ */
+/* content component04 */
 .component04{
     width: 100%;
     height: 18%;
     /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.component04 .informDiv{
+    width: 72%;
+    height: 75%;
+    /* border: 1px solid black;  */
+    display: flex;
+    justify-content: space-between;
+}
+.component04 .informDiv .inform{
+    width: 48%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.informDiv .inform .leftNews{
+    /* border: 2px solid purple; */
+}
+.leftNews1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftNews1 .title{
+    font-size: 37px;
+    font-weight: bold;
+}
+.leftNews2{
+    width: 100%;
+    height: 1%;
+    border-bottom: 1px solid var(--main-bg-color);
+}
+.leftNews3{
+    width: 100%;
+    height: 79%;
+    /* border: 1px solid purple;   */
+    padding: 30px 0;
+    padding-left: 10px;
+}
+.leftNews3 ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* list-style-type: disc; */
+    
+}
+.leftNews3 .newsList{
+    display: flex;
+    /* border: 1px solid blue; */
+}
+.newsList .showWriting{
+    display: flex;
+}
+.inform1 .leftNews3 .left{
+    margin-right: 30px;
+}
+
+.leftNews3 .newsList .position{
+    /* border: 1px solid black;  */
+    height: 22px;
+}
+.newsList p{
+    font-size: 18px;
+}
+.inform2 .leftNews3 .newsList{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+}
+.inform1 .newsList .left{
+    width: 160px;
+}
+.inform1 .newsList .right{
+    width: 400px;
+    overflow: hidden;
+}
+.inform2 .newsList .left{
+    width: 433px;
+    overflow: hidden;
+}
+.inform2 .newsList .right{
+    width: 95px;
+}
+.inform2 .newsList a{
+    color: black;
+}
+/* ############################################################ */
+/* content component05 */
 .component05{
     background-image: url('../img/component05.png');
     background-size: cover; 
@@ -254,16 +562,28 @@ header .right-header{
     flex-direction: column;
     justify-content: space-around;
 }
-.systemList ul li{
+.systemList > ul li{
     list-style: none;
     text-align: center;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
 }
 .systemList ul li a{
+    /* border: 1px solid red; */
     text-decoration-line: none;
     font-size: 20px;
     color: black;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: flex-start;
 }
-.systemList ul li a:hover{
+.systemList ul li a > img{
+    width: 48px;
+    margin-right: 20px;
+}
+.systemList ul li a p:hover{
     border-bottom: 2px solid var(--main-bg-color);
 }
 .adminstartion{
@@ -332,6 +652,7 @@ header .right-header{
     font-size: 18.5px;
     color: rgb(100, 101, 105)
 }
+/* ############################################################ */
 footer{
     width: 100%;
     height: 290px;
