@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../static/css/header.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="../static/css/subgreeting.css">
+    <link rel="stylesheet" href="../static/css/student.css">
+
+    <!-- BOOTSTRAP ICON CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <div class="container">
+        <%- include('header.ejs')%>
+        
+        <div class="content">
+
+            <div class="layout layout1">
+                <div class="home"></div>
+
+                <div class="home2">
+                    <i class="bi bi-house"></i>
+                    <p> > </p>
+                    <p>학생 활동</p>
+                    <p> > </p>
+                    <p> 학생회 </p>
+                </div>
+            </div>
+
+            <div class="layout layout2">
+                <aside>
+                    <div class="subnav subnav1"></div>
+                    <div class="subnav subnav2">
+                        <div class="sidenav">
+                            <div class="asidenav1"><p>학생 활동</p></div>
+
+                            <div class="asidenav2">
+                                <ul>
+                                    <a href="#"><li class="now"><p class="now" style="color:white;">학생회</p></li></a>
+                                    <a href="#"><li><p>소학회</p></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <div class="content-mini">
+                    <div class="hello1"><p>학생회</p></div>
+                    <div class="hello2"><p class="county">
+                        사학과 학우 여러분, 안녕하세요.</br></br>
+                        제30대 아주대학교 사학과 학생회, ‘하나 되어 퍼지는 사학과의 소리, 하음’의 학생회장 연길제, 부학생회장 박인설입니다.</br></br>
+                        ‘하음’은 사학과 학우들을 하나로 뭉치고 함께 나아가게 하고자 모였습니다.</br></br>
+                        사학과 학우분들의 즐겁고 쾌적한 학과 생활을 위해 노력하며, 잊을 수 없는 추억을 만들 것입니다. 학우들의 공부를 응원하기 위한 간식 사업, 쾌적하고 재밌는 과방 환경을 위해 미화 및 개선 활동을 진행하겠습니다. 그리고 사학과의 꽃이라 할 수 있는 알찬 춘계, 추계 학술답사를 기획하겠습니다.</br></br>
+                        사학과 학생들의 학업적 성장과 진로 탐색을 위해 노력할 것입니다. 사학과 학우들이 자신의 진로를 위해 맘껏 공부하고 학술 경험을 쌓을 수 있는 사학과 스터디 사업, 선후배가 함께 관심 있는 학과를 경험하고 미리 준비할 수 있는 복수전공&부전공 커넥팅 사업을 준비하겠습니다. </br></br>
+                        코로나19로 닫혀있던 학교의 문이 열리며 다양한 기회가 생기고 흩어졌던 학생들이 학교로 모였습니다. ‘하음’은 사학과 학우들이 학생회를 통해 학교생활의 즐거움을 느끼고 자신의 진로를 개척할 수 있도록 최선을 다할 것입니다.</br></br>
+                        사학과 여러분의 많은 관심과 참여 부탁드립니다.</br></br>
+                        감사합니다.</br>
+                        <p style="font-weight: 400; margin: 0;">아주대학교 사학과 SNS</p></br>
+                        <p style="margin: 0; display: inline;">인스타그램 : <a href="https://www.instagram.com/ajou_his/" class="sns">https://www.instagram.com/ajou_his/</a></p>
+                        <p style="margin: 0; display: inline;">페이스북 : <a href="https://www.facebook.com/historyofajou/" class="sns">https://www.facebook.com/historyofajou/</a></p>
+                    </p></div>
+                </div>
+            </div>
+        </div>
+        <%- include('footer.ejs')%>
+    </div>
+
+    <script src="../static/js/main.js"></script>
+</body>
+</html>

@@ -11,6 +11,10 @@ exports.subgreeting = (req, res) => {
 exports.subpage = (req, res) => {
     res.render('subpage');
 }
+
+exports.student = (req, res) => {
+    res.render('student');
+
 exports.department = (req, res) => {
     res.render('department');
-}
+
