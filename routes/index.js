@@ -12,6 +12,8 @@ router.get('/subpage', controller.subpage);
 router.get('/student', controller.student);
 
 router.get('/department', controller.department);
+router.get('/his_intro', controller.his_intro);
+router.get('/road', controller.road);
 
 router.get('/club', controller.club);
 
