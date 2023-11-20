@@ -36,3 +36,16 @@
     font-size: 17px;
     line-height: 30px;
 }
+
+.club{
+    font-weight: 600;
+}
+
+.instagram:visited {
+    text-decoration: none;
+    color: black;
+}
+.instagram:link{
+    text-decoration: none;
+    color: black;
+}

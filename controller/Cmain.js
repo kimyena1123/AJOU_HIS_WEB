@@ -32,6 +32,10 @@ exports.road = (req, res) => {
     res.render('road');
 }
 
+exports.eduprocess = (req, res) => {
+    res.render('eduprocess');
+}
+
 exports.eduTarget = (req, res) => {
     res.render('eduTarget');
 }
