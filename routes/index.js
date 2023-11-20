@@ -13,4 +13,6 @@ router.get('/student', controller.student);
 
 router.get('/department', controller.department);
 
+router.get('/club', controller.club);
+
 module.exports = router;

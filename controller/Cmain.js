@@ -19,3 +19,7 @@ exports.student = (req, res) => {
 exports.department = (req, res) => {
     res.render('department');
 }
+
+exports.club = (req, res) => {
+    res.render('club');
+}
