@@ -1,24 +1,24 @@
-.sidenav .asidenav2 ul a li{
-    width: 100%;
-    height: 25%;
-    border-bottom: 1px solid var(--main-bg-color);
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
+:root {
+    --main-bg-color: rgba(0, 71, 171);
+    --sub-cp-color: #1E96FF;
+    --sub-bg-color: rgba(245,245,245);
+    --font-color: rgb(255, 196, 54);
 }
-
-
-.content-mini{
-    padding-left: 50px;
+.content .layout2 .content-mini{
+    width: 75%;
+    height: 100%;
+    /* border: 3px solid purple; */
     padding-top: 50px;
+    padding-left: 50px;
 }
-.hello1 { 
+.content-mini .hello1{
     width: 100%;
     height: 10%;
+    /* border: 2px solid black; */
 }
 
 .hello1 p {
-    width: 175px;
+    width: 100px;
     padding-bottom: 7px;
     font-size: 32px;
     font-weight: bold;
