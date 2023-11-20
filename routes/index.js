@@ -6,5 +6,7 @@ const router = express.Router();
 
 //GET / => localhost: PORT/
 router.get('/', controller.main);
+router.get('/subgreeting', controller.subgreeting);
+router.get('/subpage', controller.subpage);
 
 module.exports = router;

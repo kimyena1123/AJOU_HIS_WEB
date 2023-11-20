@@ -1,0 +1,73 @@
+footer{
+    width: 100%;
+    height: 290px;
+    background-color: rgba(52,51, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-div{
+    width: 67%;
+    height: 55%;
+    /* border: 1px solid white; */
+    display: flex;
+}
+.footer-div .left{
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left .univ{
+    /* border: 1px solid yellow; */
+}
+.left .univ p{
+    /* color: white; */
+    font-weight: 200;
+    color: white;
+}
+.left .univName p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.left .univDepartment p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.left .univPosition p{
+    font-size: 15px
+}
+.left .univLaw p{
+    font-size: 15px;
+    color: var(--font-color);
+}
+.footer-div .right{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.right .circleTel{
+    width: 65%;
+    height: 40%;
+    border: 3px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.right .circleTel p{
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+.emailAddress{
+    color: white;
+    font-size: 15px;
+    margin-right: 15px;
+}
