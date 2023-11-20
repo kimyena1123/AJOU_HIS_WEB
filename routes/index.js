@@ -16,5 +16,8 @@ router.get('/his_intro', controller.his_intro);
 router.get('/road', controller.road);
 router.get('/eduTarget', controller.eduTarget);
 router.get('/club', controller.club);
+router.get('/professorInro', controller.professorInro);
+router.get('/honorPro', controller.honorPro);
+router.get('/notice', controller.notice);
 
 module.exports = router;
