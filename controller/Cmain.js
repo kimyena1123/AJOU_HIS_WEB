@@ -31,3 +31,7 @@ exports.his_intro = (req, res) => {
 exports.road = (req, res) => {
     res.render('road');
 }
+
+exports.eduprocess = (req, res) => {
+    res.render('eduprocess');
+}

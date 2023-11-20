@@ -16,5 +16,6 @@ router.get('/his_intro', controller.his_intro);
 router.get('/road', controller.road);
 
 router.get('/club', controller.club);
+router.get('/eduprocess', controller.eduprocess);
 
 module.exports = router;
