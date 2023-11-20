@@ -1,3 +1,10 @@
+.container{
+    width: 100vw;
+    /* height: 1200px; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
 .content{
     width: 100%;
     height: calc(100vh - 350px);
