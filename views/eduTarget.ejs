@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../static/css/header.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="../static/css/sise/eduTargetSize.css">
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/eduTarget.css">
+
+    <!-- BOOTSTRAP ICON CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <div class="container">
+        <%- include('header.ejs')%>
+        
+        <div class="content">
+
+            <div class="layout layout1">
+                <div class="home"></div>
+
+                <div class="home2">
+                    <i class="bi bi-house"></i>
+                    <p> > </p>
+                    <p>교육</p>
+                    <p> > </p>
+                    <p> 교육목표 </p>
+                </div>
+            </div>
+
+            <div class="layout layout2">
+                <aside>
+                    <div class="subnav subnav1"></div>
+                    <div class="subnav subnav2">
+                        <div class="sidenav">
+                            <div class="asidenav1"><p>교육</p></div>
+
+                            <div class="asidenav2">
+                                <ul>
+                                    <a href="#"><li class="now"><p class="now" style="color:white;">교육목표</p></li></a>
+                                    <a href="#"><li><p>교과과정</p></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <div class="content-mini">
+                    <div class="hello1"><p>교육목표</p></div>
+                    <div class="hello2">
+                        <div class="bus">
+                            <h2>교육목표</h2>
+                            
+                            <ul>
+                                <li class="edu">한국사, 동양사, 서양사 등의 역사, 문화, 언어에 대한 전반적인 학습을 통해 글로벌 역사문화 역량 증진</li>
+                                <li class="edu">역사 사료 리터러시 교육을 통해 비판적 분석역량 증진 및 역사문화 콘텐츠 생상</li>
+                                <li class="edu">'역사학 빅데이터'를 분석하는 다양한 디지털 기술을 습득하여 디지털 리터러시 역량 증진</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="bus">
+                            <h2>교육초점</h2>
+                            
+                            <ul>
+                                <li class="edu">타전공과 연계하는 융합교육</li>
+                                <li class="edu">사료비판 집중교육</li>
+                                <li class="edu">어학역량 증진교육(1+1 이수교육)</li>
+                            </ul>
+
+                        </div>
+
+                        <!-- <p class="boss">사학과장 한상준</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%- include('footer.ejs')%>
+    </div>
+
+    <script src="../static/js/main.js"></script>
+</body>
+</html>

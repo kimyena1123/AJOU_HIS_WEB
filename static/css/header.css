@@ -141,10 +141,15 @@ header .right-header{
     /* background-color: pink; */
     padding-left: 20px;
 }
-.hideList3{
+.hideList3 {
     margin-right: 10px;
+    padding-left: 10px;
 }
 
+.hideList2{
+    /* border: 1px solid red; */
+    padding-left: 10px;
+}
 .hideList ul{
     /* border: 2px solid pink; */
     line-height: 40px;

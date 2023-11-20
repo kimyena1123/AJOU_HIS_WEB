@@ -1,0 +1,57 @@
+:root {
+    --main-bg-color: rgba(0, 71, 171);
+    --sub-cp-color: #1E96FF;
+    --sub-bg-color: rgba(245,245,245);
+    --font-color: rgb(255, 196, 54);
+  }
+.content .layout2 .content-mini{
+    width: 75%;
+    height: 100%;
+    /* border: 3px solid purple; */
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.content-mini .hello1{
+    width: 100%;
+    height: 10%;
+    /* border: 2px solid black; */
+}
+.content-mini .hello1 p{
+    width: 120px; /*고쳐야할 부분*/
+    padding-bottom: 7px;
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 4px solid var(--main-bg-color)
+}
+.content-mini .hello2{
+    width: 90%;
+    height: 90%;
+    /* border: 1px solid red; */
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.content-mini .hello2 p{
+    margin: 20px 0;
+    font-size: 17px;
+    line-height: 30px;
+}
+.content-mini .hello2 .bus h2{
+    font-size: 25px;
+    color: var(--main-bg-color);
+}
+.content-mini .hello2 .bus ul{
+    width: 70%;
+    /* border: 3px solid red; */
+    margin: 20px;
+    margin-bottom: 60px;
+}
+.content-mini .hello2 .bus ul li{
+    font-size: 18px;
+    line-height: 32px;
+    margin-left: 20px;
+}
+.content-mini .hello2 .bus ul li::marker{
+    color: var(--main-bg-color);
+}

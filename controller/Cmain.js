@@ -35,3 +35,19 @@ exports.road = (req, res) => {
 exports.eduprocess = (req, res) => {
     res.render('eduprocess');
 }
+
+exports.eduTarget = (req, res) => {
+    res.render('eduTarget');
+}
+
+exports.professorInro = (req, res) => {
+    res.render('professorInro');
+}
+
+exports.honorPro = (req, res) => {
+    res.render('honorPro');
+}
+
+exports.notice = (req, res) => {
+    res.render('notice');
+}
