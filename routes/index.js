@@ -8,6 +8,9 @@ const router = express.Router();
 router.get('/', controller.main);
 router.get('/subgreeting', controller.subgreeting);
 router.get('/subpage', controller.subpage);
+
 router.get('/student', controller.student);
+
+router.get('/department', controller.department);
 
 module.exports = router;

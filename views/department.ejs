@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../static/css/header.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="../static/css/sise/departmentSize.css">
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/department.css">
+
+    <!-- BOOTSTRAP ICON CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <div class="container">
+        <%- include('header.ejs')%>
+        
+        <div class="content">
+
+            <div class="layout layout1">
+                <div class="home"></div>
+
+                <div class="home2">
+                    <i class="bi bi-house"></i>
+                    <p> > </p>
+                    <p>학과 소개</p>
+                    <p> > </p>
+                    <p> 학과소개 </p>
+                </div>
+            </div>
+
+            <div class="layout layout2">
+                <aside>
+                    <div class="subnav subnav1"></div>
+                    <div class="subnav subnav2">
+                        <div class="sidenav">
+                            <div class="asidenav1"><p>학과소개</p></div>
+
+                            <div class="asidenav2">
+                                <ul>
+                                    <a href="#"><li><p>학과장인사말</p></li></a>
+                                    <a href="#"><li class="now"><p class="now" style="color:white;">학과소개</p></li></a>
+                                    <a href="#"><li><p>연혁</p></li></a>
+                                    <a href="#"><li><p>졸업후진로</p></li></a>
+                                    <a href="#"><li><p>오시는길</p></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <div class="content-mini">
+                    <div class="hello1"><p>학과소개</p></div>
+                    <div class="hello2">
+                        <p>
+                            <b>1) 사학과 소학회 및 공부 모임<br></b>
+                            사학과는 ‘역사기행반(답사모임)’, ‘바우(노래공연모임)’, ‘독독회(한문자료강독모임)’ 등 학생들의 소학회 활동을 적극적으로 지원하고 있다. 
+                            또한 어학 및 데이터 분석 프로그램 학습, 역사문화콘텐츠 개발 등과 같은 다양한 공부 모임을 권장하고 매 학기 그 성과를 공유하고 있다.
+                        </p>
+
+                        <p>
+                            <b>2) 사학과 답사<br></b>
+                            사학과에서는 매년 봄 가을 학술 답사를 시행한다. 이는 학술적 목적뿐 아니라, 
+                            학우들간의 친목 도모의 차원에서도 이루어진다. 그해 답사 전년도 말부터 교수님의 조언, 
+                            3개 소학회의 협력과 분업을 통해 답사 준비를 시작하며, 소학회 주최 하에 사전답사, 요록편집, 홍보가 이루어진다. 
+                            사학과 답사에는 사학과 학생뿐 아니라 인문학부 내외의 타학부 학생도 참여가 가능하여 더욱 폭넓은 인간관계를 형성하는 데 큰 역할을 하고 있다
+                        </p>
+                        <p>
+                            <b>3) 사학인의 날</b>
+                            1학기의 가장 큰 행사가 사학과 답사라면, 2학기에는 사학인의 날이 그러한 것이라고 할 수 있다. 
+                            매년 11월 첫째주 토요일에 시행된다. 이 날에는 재학생뿐 아니라, 졸업생, 교수님 등 모든 사학인들이 모여 친목을 도모하며, 
+                            2003년에 발족된 동문회와 함께 일을 추진한다.
+
+
+                        </p>
+
+                        <!-- <p class="boss">사학과장 한상준</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%- include('footer.ejs')%>
+    </div>
+
+    <script src="../static/js/main.js"></script>
+</body>
+</html>

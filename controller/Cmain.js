@@ -14,4 +14,7 @@ exports.subpage = (req, res) => {
 
 exports.student = (req, res) => {
     res.render('student');
-}
+
+exports.department = (req, res) => {
+    res.render('department');
+
