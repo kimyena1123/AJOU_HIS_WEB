@@ -17,7 +17,7 @@
     /* border: 2px solid black; */
 }
 .content-mini .hello1 p{
-    width: 175px; /*고쳐야할 부분*/
+    width: 115px; /*고쳐야할 부분*/
     padding-bottom: 7px;
     font-size: 32px;
     font-weight: bold;
@@ -35,4 +35,7 @@
     margin: 20px 0;
     font-size: 17px;
     line-height: 30px;
+}
+.hello2 b{
+    font-size: 18px;
 }

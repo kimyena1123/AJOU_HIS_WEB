@@ -1,0 +1,7 @@
+.content{
+    width: 100%;
+    height: calc(100vh - 350px);
+    /* height: 800px; */
+    display: flex;
+    flex-direction: column;
+}
