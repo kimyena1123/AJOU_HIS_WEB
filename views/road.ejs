@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../static/css/header.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="../static/css/sise/roadSize.css">
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/road.css">
+
+    <!-- BOOTSTRAP ICON CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <div class="container">
+        <%- include('header.ejs')%>
+        
+        <div class="content">
+
+            <div class="layout layout1">
+                <div class="home"></div>
+
+                <div class="home2">
+                    <i class="bi bi-house"></i>
+                    <p> > </p>
+                    <p>학과 소개</p>
+                    <p> > </p>
+                    <p> 오시는 길 </p>
+                </div>
+            </div>
+
+            <div class="layout layout2">
+                <aside>
+                    <div class="subnav subnav1"></div>
+                    <div class="subnav subnav2">
+                        <div class="sidenav">
+                            <div class="asidenav1"><p>학과소개</p></div>
+
+                            <div class="asidenav2">
+                                <ul>
+                                    <a href="#"><li><p>학과장인사말</p></li></a>
+                                    <a href="#"><li><p>학과소개</p></li></a>
+                                    <a href="#"><li><p>연혁</p></li></a>
+                                    <a href="#"><li><p>졸업후진로</p></li></a>
+                                    <a href="#"><li class="now"><p class="now" style="color:white;">오시는길</p></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <div class="content-mini">
+                    <div class="hello1"><p>오시는 길</p></div>
+                    <div class="hello2">
+                        <p>
+                            주소 : 16499 경기도 수원시 영통구 월드컵로 206 아주대학교
+                        </p>
+
+                        <div class="bus">
+                            <h2>대중교통</h2>
+                            <table cellspacing = "0" cellpadding = "10">
+                                <thead>
+                                    <tr>
+                                        <td class="title">사당역 4번 출구, 과천</td>
+                                        <td>좌석버스 7000, 7001번 승차 -> 과천, 의왕간 고속도록 -> 아주대 (35분)</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="title">강남역 4,5번 출구</td>
+                                        <td>좌석버스 3007번 승차 -> 경부고속도록 -> 아주대 (40분)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="title">잠실역 6번 출구</td>
+                                        <td>좌석버스 1007-1번 승차 -> 경부고속도록 -> 아주대 (50분)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="title">성남, 분당, 수지 지역</td>
+                                        <td>좌석버스 4000번, 시내버스 720, 720-1, 720-2, 720-3번 승차 -> 아주대</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="title">수원지역</td>
+                                        <td>1호선(국철) 이용, 수원역에서 하차, 시내버스 11-1, 46-1, 720, 720-2, 730번 승차 -> 아주대</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="bus">
+                            <h2>승용차</h2>
+
+                            <table cellspacing = "0" cellpadding = "10">
+                                <thead>
+                                    <tr>
+                                        <td class="title">동수원IC</td>
+                                        <td>중소기업지원센터 -> 효성사거리(원형육교) -> 아주대학교 (9분)</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="title">수원IC</td>
+                                        <td>원천유원지 삼거리 -> 국립지리원 -> 아주대학교 (19분)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="title">수원버스터미널</td>
+                                        <td>시청사거리 -> 농협사거리 -> 뉴코아아울렛 -> 효성사거리(원형육교) -> 아주대학교 (14분)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="title">수원역</td>
+                                        <td>도청사거리 -> 매교사거리 -> 중동사거리 -> 성빈센트병원 -> 동수원사거리 -> 캐슬호텔 -> 아주대삼거리 -> 아주대학교 (18분)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- <p class="boss">사학과장 한상준</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%- include('footer.ejs')%>
+    </div>
+
+    <script src="../static/js/main.js"></script>
+</body>
+</html>

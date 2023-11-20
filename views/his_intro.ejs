@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../static/css/header.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="../static/css/sise/his_introSize.css">
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/his_intro.css">
+
+    <!-- BOOTSTRAP ICON CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <div class="container">
+        <%- include('header.ejs')%>
+        
+        <div class="content">
+
+            <div class="layout layout1">
+                <div class="home"></div>
+
+                <div class="home2">
+                    <i class="bi bi-house"></i>
+                    <p> > </p>
+                    <p>학과 소개</p>
+                    <p> > </p>
+                    <p> 연혁 </p>
+                </div>
+            </div>
+
+            <div class="layout layout2">
+                <aside>
+                    <div class="subnav subnav1"></div>
+                    <div class="subnav subnav2">
+                        <div class="sidenav">
+                            <div class="asidenav1"><p>학과소개</p></div>
+
+                            <div class="asidenav2">
+                                <ul>
+                                    <a href="#"><li><p>학과장인사말</p></li></a>
+                                    <a href="#"><li><p>학과소개</p></li></a>
+                                    <a href="#"><li class="now"><p class="now" style="color:white;">연혁</p></li></a>
+                                    <a href="#"><li><p>졸업후진로</p></li></a>
+                                    <a href="#"><li><p>오시는길</p></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <div class="content-mini">
+                    <div class="hello1"><p>연혁</p></div>
+                    <div class="hello2">
+                        <p>
+                            사학과는 역사학적 사고력 및 다양한 문제해결과 글로벌 역량을 갖춘 세계시민을 양성한다는 
+                            목적으로 1990년 3월 인문대학 내에 창설되었다. 
+                            1996년 대학원 석사과정이 설치되어 심도 있는 역사학 연구와 전문 역사학 연구자를 양성할 수 있는 기반을 갖추었다.
+                        </p>
+
+                        <p>
+                            본 전공에서는 한국사, 동양사, 서양사의 균형 있는 역사 교육을 위해 시대사는 물론, 
+                            역사학으로의 초대, 한문사료강독, 영문사료강독 등을 통해 어학 능력과 사료비판 능력을 다지게 하고 있다.
+                        </p>
+                        <p>
+                            또한 국제학부와 공동으로 국제통상과 지역학 관련 강좌를 개설하여 학생들의 국제화 역량을 제고하고 있으며, 
+                            디지털 기술을 활용하여 역사학 사료(데이터)에서 역사문화콘텐츠를 생산할 수 있는 융합적 능력을 지닌 역사학도를 양성하고 있다. 
+                            특히 역사학과 디지털 기술을 융합하는 디지털역사학 관련 교육을 디지털역사학입문, 디지털역사학연구방법론, 디지털역사학데이터분석연습 등의 교과목을 통해 국내 사학과 중에서 최초로 제공하고 있다.
+                        </p>
+
+                        <!-- <p class="boss">사학과장 한상준</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%- include('footer.ejs')%>
+    </div>
+
+    <script src="../static/js/main.js"></script>
+</body>
+</html>
