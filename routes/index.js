@@ -18,6 +18,7 @@ router.get('/eduprocess', controller.eduprocess);
 router.get('/professorInro', controller.professorInro);
 router.get('/honorPro', controller.honorPro);
 router.get('/notice', controller.notice);
+router.get('/detail', controller.detail);
 
 router.get('/pro1', controller.pro1);
 router.get('/pro2', controller.pro2);

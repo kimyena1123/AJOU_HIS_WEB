@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../static/css/header.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="../static/css/sise/detailSize.css">
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/detail.css">
+
+    <!-- BOOTSTRAP ICON CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <div class="container">
+        <%- include('header.ejs')%>
+        
+        <div class="content">
+
+            <div class="layout layout1">
+                <div class="home"></div>
+
+                <div class="home2">
+                    <i class="bi bi-house"></i>
+                    <p> > </p>
+                    <p>교수 소개</p>
+                    <p> > </p>
+                    <p> 전임교수 </p>
+                </div>
+            </div>
+
+            <div class="layout layout2">
+                <aside>
+                    <div class="subnav subnav1"></div>
+                    <div class="subnav subnav2">
+                        <div class="sidenav">
+                            <div class="asidenav1"><p>전임교수</p></div>
+
+                            <div class="asidenav2">
+                                <ul>
+                                    <a href="#"><li class="now"><p class="now" style="color:white;">전임교수</p></li></a>
+                                    <a href="#"><li><p>명예교수</p></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <div class="content-mini">
+                    <div class="hello1"><p>전임교수</p></div>
+                    <div class="hello2">
+                        <div class="intro">
+                            <div class="faceImg">
+                                <img src="../static/img/professorKim.gif">
+                            </div>
+
+                            <div class="professorExplain">
+                                <div class="explain explain1">
+                                    <div class="contents">
+                                        <h2>김종식</h2>
+                                        <div class="rightBar"></div>
+                                        <p>교수</p>
+                                    </div>
+                                </div>
+                                <div class="explain explain2">
+                                    <ul>
+                                        <li>연구실 번호: 2847</li>
+                                        <li>이메일: kmaru@ajou.ac.kr</li>
+                                        <li>연구실: 다산관 206-1</li>
+                                    </ul>
+                                </div>
+                                <div class="explain explain3">
+                                    <ul>
+                                        <li>2022.03 동경대학교 박사</li>
+                                        <li>인문대, 국제학부 소속</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kjspaper">
+                            <ul>
+                               <li class="paperindex">연구활동(주요논문)</li></br> 
+                                    <ol>
+                                        <li class="research">[논문] 김종식, 3·1운동을 전후한 1910년대 식민지조선을 둘러싼 일본의 정치과정 연구 -입헌 정우회와 하라 다카시(原敬)를 중심으로- , 역사학보 , pp.91 -118 (Mar, 2020)</li>
+                                        <li class="research">[논문] 김종식, 한국의 일본 근현대사 연구에 대한 이해: 한국사회와 일본 근현대사 연구의 연관성에 기반하여 , 일본연구 , pp.37 -56 (Aug, 2018)</li>
+                                        <li class="research">[논문] 김종식, 근대일본 중학교 공민교육의 변용 , 일본역사연구 , pp.59 -87 (Jun, 2017)</li>
+                                        <li class="research">[논문] 김종식, 일본근현대사 연구동향 ; 한국적인 연구의 이해를 위하여 , 역사학보 , Vol.231 , pp.321 -345 (Oct, 2016)</li>
+                                        <li class="research">[논문] 김종식, 근대 일본 선거숙정운동의 인과적 이해를 위하여 , 일본학 , pp.167 -193 (May, 2016)</li></br>
+                                    </ol>
+                                <li class="paperindex">국내학술논문지</li></br>
+                                    <ol>
+                                        <li class="research">[논문] 김종식, 3·1운동을 전후한 1910년대 식민지조선을 둘러싼 일본의 정치과정 연구 -입헌 정우회와 하라 다카시(原敬)를 중심으로- , 역사학보 , pp.91 -118 (Mar, 2020)</li>
+                                        <li class="research">[논문] 김종식, 한국의 일본 근현대사 연구에 대한 이해: 한국사회와 일본 근현대사 연구의 연관성에 기반하여 , 일본연구 , pp.37 -56 (Aug, 2018)</li>
+                                        <li class="research">[논문] 김종식, 근대일본 중학교 공민교육의 변용 , 일본역사연구 , pp.59 -87 (Jun, 2017)</li>
+                                        <li class="research">[논문] 김종식, 일본근현대사 연구동향 ; 한국적인 연구의 이해를 위하여 , 역사학보 , Vol.231 , pp.321 -345 (Oct, 2016)</li>
+                                        <li class="research">[논문] 김종식, 근대 일본 선거숙정운동의 인과적 이해를 위하여 , 일본학 , pp.167 -193 (May, 2016)</li>
+                                        <li class="research">[논문] 김종식, 1910년대 재조일본인 정치가의 정체성 형성과정 , 사림 , pp.397 -422 (Apr, 2016)</li>
+                                        <li class="research">[논문] 김종식, 패전 전후 일본교육의 단절과 연속 , 한일관계사연구 , pp.423 -455 (Dec, 2015)</li>
+                                        <li class="research">[논문] 김종식, 1920년대 일본 중학교 [공민과]설치 논의 , 사림 , No.54 , pp.231 -257 (Oct, 2015)</li>
+                                        <li class="research">[논문] 김종식, 제1차 세계대전에 대한 일본과 식민지조선의 대응 , 일본학보 , No.102 , pp.199 -214 (Feb, 2015)</li>
+                                        <li class="research">[논문] 김종식, 근대일본 복지민주주의의 도전과 실패 , 동양사학연구 , pp.275 -307 (Dec, 2014)</li>
+                                        <li class="research">[논문] 김종식, 1930년 전후 중학교 공민과의 정치교육 성립과정 , 일본역사연구 , pp.105 -126 (Jun, 2012)</li>
+                                        <li class="research">[논문] 김종식, 근대 일본 노사협조기관의 성립과정-협조회 성립을 둘러싼 노사정 , 일본연구논총 , pp.221 -248 (Jun, 2012)</li>
+                                        <li class="research">[논문] 김종식, 한국 일본학연구에서 역사연구의 성격 , 일본학보 , pp.45 -59 (May, 2012)</li>
+                                        <li class="research">[논문] 김종식, 1910년대 식민지 조선 관련 일본 국내정치 논의의 한 양상 , 한일관계사연구 , pp.301 -333 (Apr, 2011)</li>
+                                        <li class="research">[논문] 김종식, 공민교육을 통한 근대 일본 국민상의 모색 , 동양사학연구 , pp.225 -257 (Mar, 2011)</li>
+                                        <li class="research">[논문] 김종식, 근대일본의 관료규율 형성에 대하여 , 사림 , pp.345 -369 (Feb, 2010)</li>
+                                        <li class="research">[논문] 김종식, 미쓰이의 유한책임 주식회사 성립과정 , 일본학보 , pp.253 -270 (Feb, 2010)</li>
+                                        <li class="research">[논문] 김종식, 1920년대 내무관료의 정당정치관 , 일본역사연구 , pp.65 -88 (Dec, 2009)</li>
+                                        <li class="research">[논문] 김종식, 근대 일본내무관료의 조선경험 , 한일관계사연구 , Vol.33 , No.1 , pp.275 -305 (Aug, 2009)</li>
+                                        <li class="research">[논문] 김종식, 1920년대 초 일본정치와 식민지 조선지배 , 동북아역사논총 , Vol.22 , No.22 , pp.309 -337 (Dec, 2008)</li>
+                                        <li class="research">[논문] 김종식, 1895-1896년 [太陽]을 통해서 본 일본의 조선인식 , 사림(수선사학회) , Vol.31 , No.31 , pp.167 -187 (Oct, 2008)</li>
+                                    </ol>
+                                <li class="paperindex">국제학술발표</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%- include('footer.ejs')%>
+    </div>
+
+    <script src="../static/js/main.js"></script>
+</body>
+</html>

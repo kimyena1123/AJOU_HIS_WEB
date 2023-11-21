@@ -52,6 +52,9 @@ exports.notice = (req, res) => {
     res.render('notice');
 }
 
+exports.detail = (req, res) => {
+    res.render('detail');
+}
 exports.pro1 = (req, res) => {
     res.render('pro1');
 }
