@@ -1,0 +1,68 @@
+<!-- 김서현 교수님 -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김서현</title>
+
+    <link rel="stylesheet" href="../static/css/header.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="../static/css/sise/greetingSize.css">
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/subgreeting.css">
+
+    <!-- BOOTSTRAP ICON CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <div class="container">
+        <%- include('header.ejs')%>
+        
+        <div class="content">
+
+            <div class="layout layout1">
+                <div class="home"></div>
+
+                <div class="home2">
+                    <i class="bi bi-house"></i>
+                    <p> > </p>
+                    <p>학과 소개</p>
+                    <p> > </p>
+                    <p> 전임교수 </p>
+                </div>
+            </div>
+
+            <div class="layout layout2">
+                <aside>
+                    <div class="subnav subnav1"></div>
+                    <div class="subnav subnav2">
+                        <div class="sidenav">
+                            <div class="asidenav1"><p>전임교수</p></div>
+
+                            <div class="asidenav2">
+                                <ul>
+                                    <a href="#"><li class="now"><p class="now" style="color:white;">전임교수</p></li></a>
+                                    <a href="#"><li><p>명예교수</p></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <div class="content-mini">
+                    <div class="hello1"><p>김서현 교수님</p></div>
+                    <div class="hello2">
+                        <p>
+                            김서현 교수님 설명
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%- include('footer.ejs')%>
+    </div>
+
+    <script src="../static/js/main.js"></script>
+</body>
+</html>
