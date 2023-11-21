@@ -55,3 +55,24 @@ exports.notice = (req, res) => {
 exports.detail = (req, res) => {
     res.render('detail');
 }
+exports.pro1 = (req, res) => {
+    res.render('pro1');
+}
+exports.pro2 = (req, res) => {
+    res.render('pro2');
+}
+exports.pro3 = (req, res) => {
+    res.render('pro3');
+}
+exports.pro4 = (req, res) => {
+    res.render('pro4');
+}
+exports.pro5 = (req, res) => {
+    res.render('pro5');
+}
+exports.pro6 = (req, res) => {
+    res.render('pro6');
+}
+exports.pro7 = (req, res) => {
+    res.render('pro7');
+}

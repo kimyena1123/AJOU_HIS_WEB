@@ -20,4 +20,13 @@ router.get('/honorPro', controller.honorPro);
 router.get('/notice', controller.notice);
 router.get('/detail', controller.detail);
 
+router.get('/pro1', controller.pro1);
+router.get('/pro2', controller.pro2);
+router.get('/pro3', controller.pro3);
+router.get('/pro4', controller.pro4);
+router.get('/pro5', controller.pro5);
+router.get('/pro6', controller.pro6);
+router.get('/pro7', controller.pro7);
+
+
 module.exports = router;
