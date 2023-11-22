@@ -1,6 +1,6 @@
 .container{
     width: 100vw;
-    height: 2850px;
+    height: 1350px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -8,7 +8,7 @@
 .content{
     width: 100%;
     /* height: calc(100vh - 400px); */
-    height: 2450px;
+    height: 1050px;
     display: flex;
     flex-direction: column;
 }
