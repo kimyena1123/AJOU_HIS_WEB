@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../static/css/header.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="../static/css/sise/his_dataSize.css">
+    <link rel="stylesheet" href="../static/css/base.css">
+    <link rel="stylesheet" href="../static/css/his_data.css">
+
+    <!-- BOOTSTRAP ICON CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <div class="container">
+        <%- include('header.ejs')%>
+        
+        <div class="content">
+
+            <div class="layout layout1">
+                <div class="home"></div>
+
+                <div class="home2">
+                    <i class="bi bi-house"></i>
+                    <p> > </p>
+                    <p>학생행정</p>
+                    <p> > </p>
+                    <p> 사학과 요람 </p>
+                </div>
+            </div>
+
+            <div class="layout layout2">
+                <aside>
+                    <div class="subnav subnav1"></div>
+                    <div class="subnav subnav2">
+                        <div class="sidenav">
+                            <div class="asidenav1"><p>학사행정</p></div>
+
+                            <div class="asidenav2">
+                                <ul>
+                                    <a href="./his_data"><li class="now"><p class="now" style="color:white;">사학과 요람</p></li></a>
+                                    <a href="./his_travel"><li><p>역사기행반 요록</p></li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <div class="content-mini">
+                    <div class="hello1"><p>사학과 요람</p></div>
+                    <div class="hello2">
+
+                        <ul>
+                            <li class="data_year">
+                                <p class="explain">2023년도 인문대학 사학과 요람</p>
+                                <div class="downloadLogo">
+                                    <a href="../static/download02/2023_사학과.pdf" download="">
+                                        <p>다운로드</p>
+                                        <i class="bi bi-download"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="data_year">
+                                <p class="explain">2022년도 인문대학 사학과 요람</p>
+                                <div class="downloadLogo">
+                                    <a href="../static/download02/2022_사학과.pdf" download="">
+                                        <p>다운로드</p>
+                                        <i class="bi bi-download"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="data_year">
+                                <p class="explain">2021년도 인문대학 사학과 요람</p>
+                                <div class="downloadLogo">
+                                    <a href="../static/download02/2021_사학과.pdf" download="">
+                                        <p>다운로드</p>
+                                        <i class="bi bi-download"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="data_year">
+                                <p class="explain">2020년도 인문대학 사학과 요람</p>
+                                <div class="downloadLogo">
+                                    <a href="../static/download02/2020_사학과.pdf" download="">
+                                        <p>다운로드</p>
+                                        <i class="bi bi-download"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="data_year">
+                                <p class="explain">2019년도 인문대학 사학과 요람</p>
+                                <div class="downloadLogo">
+                                    <a href="../static/download02/2019_사학과.pdf" download="">
+                                        <p>다운로드</p>
+                                        <i class="bi bi-download"></i>
+                                    </a>
+                                </div>
+                            </li><li class="data_year">
+                                <p class="explain">2018년도 인문대학 사학과 요람</p>
+                                <div class="downloadLogo">
+                                    <a href="../static/download02/2018_사학과.pdf" download="">
+                                        <p>다운로드</p>
+                                        <i class="bi bi-download"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="data_year">
+                                <p class="explain">2017년도 인문대학 사학과 요람</p>
+                                <div class="downloadLogo">
+                                    <a href="../static/download02/2017_사학과.pdf" download="">
+                                        <p>다운로드</p>
+                                        <i class="bi bi-download"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="data_year">
+                                <p class="explain">2016년도 인문대학 사학과 요람</p>
+                                <div class="downloadLogo">
+                                    <a href="../static/download02/2016_인문대학.pdf" download="">
+                                        <p>다운로드</p>
+                                        <i class="bi bi-download"></i>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="data_year">
+                                <p class="explain">2015년도 인문대학 사학과 요람</p>
+                                <div class="downloadLogo">
+                                    <a href="../static/download02/2015_인문대학.pdf" download="">
+                                        <p>다운로드</p>
+                                        <i class="bi bi-download"></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%- include('footer.ejs')%>
+    </div>
+
+    <script src="../static/js/main.js"></script>
+</body>
+</html> 

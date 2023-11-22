@@ -27,6 +27,7 @@ router.get('/pro4', controller.pro4);
 router.get('/pro5', controller.pro5);
 router.get('/pro6', controller.pro6);
 router.get('/pro7', controller.pro7);
-
+router.get('/his_data', controller.his_data);
+router.get('/his_travel', controller.his_travel);
 
 module.exports = router;

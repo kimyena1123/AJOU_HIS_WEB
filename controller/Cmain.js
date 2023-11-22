@@ -76,3 +76,9 @@ exports.pro6 = (req, res) => {
 exports.pro7 = (req, res) => {
     res.render('pro7');
 }
+exports.his_data = (req, res) => {
+    res.render('his_data');
+}
+exports.his_travel = (req, res) => {
+    res.render('his_travel');
+}
