@@ -1,0 +1,14 @@
+.container{
+    width: 100vw;
+    height: 3100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content{
+    width: 100%;
+    /* height: calc(100vh - 400px); */
+    height: 2700px;
+    display: flex;
+    flex-direction: column;
+}
